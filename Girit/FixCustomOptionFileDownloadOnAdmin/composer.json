@@ -1,0 +1,21 @@
+{
+    "name": "girit/fixcustomoptionfiledownloadonadmin",
+    "description": "Fix for file custom option download from admin order view",
+    "authors": [
+        {
+            "email": "pini@girit.biz",
+            "name": "GiritInteractive",
+            "homepage": "https://www.girit-tech.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Girit\\FixCustomOptionFileDownloadOnAdmin\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
